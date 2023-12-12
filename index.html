@@ -11,10 +11,11 @@
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF_V9fxYm9L3eKv6hVrLX-4oO1hInDC1nJBQ&usqp=CAU" width="500px">
    <ul>
     <b>Резюме як вчила бабця!</b>
+    <p> Тут будет наверное <q>Цитата великого</q> для обозначения</p>
    </ul>
   
     <h1>Обо мне:</h1>
-        
+      <!--пронумеровано--> 
     <ol>
     <li><p><em><abbr title="Иногда">Не парю мозг</abbr></em></p></li>
     <li><p><em><div>Вкусно готовлю</em></p></li>
@@ -22,14 +23,15 @@
     </ol>
 
     <h2>Характеристики:</h2>
-
+      <!--не пронумеровано-->
     <ul> 
     <li><p><em>Рост 160см</em></p></li>
     <li><p><em>Темные волосы</em></p></li>
     <li><p><em>Зеленые глаза</em></p></li>
     </ul>
-   
+      
     <hr>
+           <!--табличка -->
         <table border="1" width="300px">
             <thead>
             <tr>
@@ -42,30 +44,65 @@
         <td>94</td>
         <td>90</td>
         <td>не скажу</td>
-
         </tbody>    
         </table>
-    
-   <p> Тут будет наверное <q>Цитата великого</q> для обозначения</p>
 
-    <p>
-    <a href="mailto:msdi44643@gmail.com">По вопросам сожительства</a>
-    </p>
-    <p>
-    <a href="https://s.057.ua/upload/images/news/intext/57b/5886099638/ada6c331581df42ddda25708f304f9f7.jpeg">Не забудь посмотреть мем</a>
-    </p>
-   <form>
+        <!--форма , выбор из списка-->
+        <p><form>
+       <label for="fruits">Выбери фрукт:</label><br>
+       <select id="fruits" name="fruits">
+        <option value="apple" selected>Яблоко</option>
+        <option value="apple" selected>Виски</option>
+        <option value="apple" selected>Банан</option><br>
+        <button type="submit">Отправить</button> </select>
+        </form></p>
+
+          <!--кнопка отправить-->
+          <button type="submit">Отправить</button>
+        <!--ссылки-->
+
+       <p>
+      <a href="mailto:msdi44643@gmail.com">По вопросам сожительства</a>
+       </p>
+     <p>
+     <a href="https://s.057.ua/upload/images/news/intext/57b/5886099638/ada6c331581df42ddda25708f304f9f7.jpeg">Не забудь посмотреть мем</a>
+       </p>
+
+       <!--форма для ввода в поле-->
+
+       <form>
     <lable>От 1 до 10 за старание</lable>
     <input type="text"
- placeholder="Писать тут"><br></br>
-
+ placeholder="Писать тут"><br><br>
  <lable>Оставь email</lable>
  <input type="email"
- placeholder="Оставь email"><br></br>
+ placeholder="Оставь email"><br>
 
   <lable for="user name">Тыц</lable> 
-  <input type="checkbox">
+  <input type="checkbox"><br><br>
+
+  <label for="comment">Тут коммент:</label>
+  <textarea id="comment"name="comment" rows="8" cols="80">Ваш комментирий о проделанной работе:</textarea>
    </form>
+
+   <svg width="100" height="100">
+    <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+  </svg>
+
+  <svg width="400" height="180">
+    <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+    style="fill:aquamarine;stroke:black;stroke-width:5;opacity:0.5" />
+  </svg>
+ <p><b>Оставьте свои данные и рассмотрю вашу кандидатуру</b></p>
+  <form>
+    <label for="username">Имя пользователя:</label>
+    <input type="text" id="username" name="username" autocomplete="on">
+    
+    <label for="password">Пароль от вашего сердца:</label>
+    <input type="password" id="password" name="password" autocomplete="off">
+    
+    <input type="submit" value="Отправить">
+</form>
 
 </body>
 </html>
